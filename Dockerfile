@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER https://github.com/imasen
+LABEL maintainer="https://github.com/imasen"
 
 RUN apk add --no-cache clamav clamav-libunrar
 
